@@ -5,63 +5,63 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
     <link rel="icon" href="favicon.ico">
+
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
     <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
+      <header class="main-header">
+        <nav class="main-nav">
           <a class="logo" href="index.html" aria-current="page">
-            <img src="images/logo.svg" width="140" height="70" alt="Логотип Седона">
+            <img src="images/logo.svg" class="logo" alt="Логотип Седона" width="140" height="70">
           </a>
-          <ul class="nav-list list-reset">
-            <li class="nav-item">
-              <a class="nav-link nav-link-current" href="index.html" aria-current="page">Главная</a>
+          <ul class="main-nav-list list-reset">
+            <li class="main-nav-item">
+              <a class="main-nav-link main-nav-current" href="index.html" aria-current="page">Главная</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">О Седоне</a>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">О Седоне</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="catalog.html">Гостиницы</a>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-          <ul class="user-list list-reset">
+          <ul class="main-nav-user list-reset">
             <li class="user-item">
               <a class="user-link user-link-search" href="#">
-                <svg aria-hidden="true" focusable="false" width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M18.5 17.0083L14.8 13.3287C15.8 12.0359 16.5 10.3453 16.5 8.4558C16.5 4.08011 12.9 0.5 8.5 0.5C4.1 0.5 0.5 4.17956 0.5 8.55525C0.5 12.9309 4.1 16.511 8.5 16.511C10.3 16.511 12 15.9144 13.4 14.8204L17.1 18.5L18.5 17.0083ZM8.5 14.5221C5.2 14.5221 2.5 11.837 2.5 8.55525C2.5 5.27348 5.2 2.5884 8.5 2.5884C11.8 2.5884 14.5 5.27348 14.5 8.55525C14.5 11.837 11.8 14.5221 8.5 14.5221Z" />
-                </svg>
-                <span class="visually-hidden">Поиск</span>
+
+                <span class="visually-hidden">Поиск.</span>
               </a>
             </li>
             <li class="user-item">
               <a class="user-link user-link-favorites" href="#">
-                <svg aria-hidden="true" focusable="false" width="18" height="17" viewBox="0 0 18 17" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8.9 17C8.6 17 8.3 16.9 8.1 16.6C2.7 10.5 1.4 9.1 1.1 8.7C0.4 7.8 0 6.6 0 5.4C0 2.4 2.4 0 5.5 0C6.8 0 8 0.5 9 1.3C10 0.5 11.3 0 12.5 0C15.5 0 18 2.4 18 5.4C18 6.7 17.5 7.9 16.7 8.8L9.7 16.7C9.5 16.9 9.3 17 8.9 17ZM2.9 7.5C3.2 7.9 6.4 11.5 9 14.4L15.2 7.4C15.7 6.9 15.9 6.2 15.9 5.4C15.9 3.6 14.4 2.1 12.6 2.1C11.6 2.1 10.6 2.6 9.9 3.4C9.6 3.7 9.3 3.8 9 3.8C8.7 3.8 8.4 3.6 8.2 3.4C7.5 2.6 6.5 2.1 5.5 2.1C3.7 2.1 2.2 3.6 2.2 5.4C2.1 6.3 2.5 7 2.9 7.5C2.8 7.5 2.8 7.5 2.9 7.5Z" />
-                </svg>
-                <span class="user-favorites-num">12</span>
-                <span class="visually-hidden">Избранное</span>
+
+                <span class="user-favorites-number">12</span>
+                <span class="visually-hidden">Избранное.</span>
               </a>
             </li>
           </ul>
-          <a class="nav-button button button-modal" href="#">Хочу сюда!</a>
+          <a class="button nav-button button-modal" href="#">Хочу сюда!</a>
         </nav>
       </header>
-
       <main class="main">
+        <h1 class="visually-hidden">Главная страница Города Седона.</h1>
         <section class="hero">
-          <h1 class="visually-hidden">Седона</h1>
-          <div class="hero-image">
-            <img src="images/index-background.jpg" width="458" height="352" alt="Добро пожаловать в Седона">
+          <h2 class="visually-hidden">Добро пожаловать в Седону.</h2>
+          <div class="hero-img">
+            <img src="images/index-background.jpg" width="100%" height="100%" alt="Welcome to the gorgeous Sedona">
           </div>
         </section>
         <section class="advantages">
-          <h2 class="visually-hidden">Преимущества</h2>
-          <div class="description">
-            <h2 class="description-title page-title">Седона — небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
-            <p class="description-text page-text">Рассмотрим причины, по которым Седона круче, чем Гранд&#8209;Каньон!</p>
+          <h2 class="visually-hidden">Преимущества.</h2>
+          <div class="advantages-description">
+            <h2 class="advantages-description-title page-title">Седона — небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
+            <p class="advantages-description-text page-text">Рассмотрим причины, по которым Седона круче, чем Гранд&#8209;Каньон!</p>
           </div>
           <ul class="advantages-list list-reset">
             <li class="advantages-item advantages-item-full">
@@ -70,8 +70,8 @@
                   <h3 class="advantages-title">Настоящий городок</h3>
                   <p class="advantages-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
                 </div>
-                <div class="advantages-image">
-                  <img class="foto-city" src="img/foto-city-1.jpg" width="800" height="385" alt="Фото здания в городе">
+                <div class="advantages-img">
+                  <img src="images/photo-1.jpg" alt="Фото города Седоны" width="800" height="385">
                 </div>
               </div>
             </li>
@@ -84,7 +84,7 @@
             <li class="advantages-item">
               <div class="advantages-content">
                 <h3 class="advantages-title">Красивая дорога</h3>
-                <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                <p class="advantages-text">Ехать в Седону из Лас&#8209;Вегаса совсем не скучно!</p>
               </div>
             </li>
             <li class="advantages-item">
@@ -96,86 +96,88 @@
             <li class="advantages-item advantages-item-full">
               <div class="advantages-container">
                 <div class="advantages-content">
-                  <h3 class="advantages-title">Там есть мост&#160;Дьявола</h3>
+                  <h3 class="advantages-title">Там есть мост&#160;дьявола</h3>
                   <p class="advantages-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
                 </div>
-                <div class="advantages-image">
-                  <img class="foto-city" src="img/foto-city-2.jpg" alt="Фото моста Дьявола" width="800" height="385">
+                <div class="advantages-img">
+                  <img src="images/photo-2.jpg" alt="Фото окрестностей Седоны" width="800" height="385">
                 </div>
               </div>
             </li>
           </ul>
-          <div class="description description-services">
-            <h2 class="description-title page-title">Приезжайте в Седону отдохнуть <br>в комфорте и уюте!</h2>
-            <p class="description-text page-text">Опытный персонал и качественное обслуживание!</p>
+        </section>
+        <section class="services">
+          <div class="services-description">
+            <h2 class="services-description-title page-title">Приезжайте в Седону отдохнуть<br>в комфорте и уюте!</h2>
+            <p class="services-description-text page-text">Опытный персонал и качественное обслуживание!</p>
           </div>
           <ul class="services-list list-reset">
             <li class="services-item">
               <div class="services-content services-content-home">
-                <h3 class="advantages-title">Жильё</h3>
-                <p class="advantages-text">Рекомендуем пожить в&nbsp;настоящем мотеле, <br>всё как в кино!</p>
+                <h3 class="services-title">Жильё</h3>
+                <p class="services-text">Рекомендуем пожить в&nbsp;настоящем мотеле,<br>всё как в кино!</p>
               </div>
             </li>
             <li class="services-item">
               <div class="services-content services-content-food">
-                <h3 class="advantages-title">Еда</h3>
-                <p class="advantages-text">Всегда заказывайте топовый&nbsp;фирменный бургер, вы не разочаруетесь!</p>
+                <h3 class="services-title">Еда</h3>
+                <p class="services-text">Всегда заказывайте топовый&nbsp;фирменный бургер, вы не разочаруетесь!</p>
               </div>
             </li>
             <li class="services-item">
               <div class="services-content services-content-souvenirs">
-                <h3 class="advantages-title">Сувениры</h3>
-                <p class="advantages-text">Не только китайского, <br>но и настоящего местного производства!</p>
+                <h3 class="services-title">Сувениры</h3>
+                <p class="services-text">Не только китайского,<br>но и настоящего местного производства!</p>
               </div>
             </li>
           </ul>
         </section>
         <section class="search">
           <h2 class="search-title page-title">Заинтересовались?</h2>
-          <p class="search-text page-text">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <p class="search-text page-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <a class="search-button button button-modal" href="#">Поиск гостиницы в Седоне</a>
         </section>
-        <section class="subscribe subscribe-home">
+        <section class="subscribe subscribe-main">
           <h2 class="subscribe-title page-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-text page-text">Только полезная информация и никакого спама, <br>честное бойскаутское!</p>
-          <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="POST">
-            <label class="visually-hidden" for="subscribe-email">Ваш email</label>
-            <input class="subscribe-input form-input" id="subscribe-email" name="subscribe-email" type="email" placeholder="Ваш e-mail" required>
-            <button class="subscribe-button button button-light" type="submit">Подписаться</button>
+          <form class="subscribe-form" action="#" method="post">
+            <label class="visually-hidden" for="subscribe-email">Ваш e-mail.</label>
+            <input class="subscribe-input form-input" id="subscribe-email" type="email" name="email" placeholder="Ваш e-mail" required>
+            <button class="button button-light subscribe-button" type="submit">Подписаться</button>
           </form>
         </section>
       </main>
-
-      <footer class="footer">
+      <footer class="main-footer">
         <ul class="social-list list-reset">
           <li class="social-item">
             <a class="social-link" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">ВКонтакте</span>
-              <svg class="social-icon" aria-hidden="true" focusable="false" width="48" height="41" viewBox="0 0 48 41" xmlns="http://www.w3.org/2000/svg">
+              <svg aria-hidden="true" focusable="false" width="48" height="41" viewBox="0 0 48 41" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M35.1164 14.8044C35.2824 14.2584 35.1164 13.8564 34.3214 13.8564H31.6964C31.0284 13.8564 30.7204 14.2034 30.5534 14.5864C30.5534 14.5864 29.2184 17.7824 27.3274 19.8584C26.7154 20.4604 26.4374 20.6514 26.1034 20.6514C25.9364 20.6514 25.6854 20.4604 25.6854 19.9134V14.8044C25.6854 14.1484 25.5014 13.8564 24.9454 13.8564H20.8174C20.4004 13.8564 20.1494 14.1604 20.1494 14.4494C20.1494 15.0704 21.0954 15.2144 21.1924 16.9624V20.7604C21.1924 21.5934 21.0394 21.7444 20.7054 21.7444C19.8154 21.7444 17.6504 18.5334 16.3654 14.8594C16.1164 14.1444 15.8644 13.8564 15.1934 13.8564H12.5664C11.8164 13.8564 11.6664 14.2034 11.6664 14.5864C11.6664 15.2684 12.5564 18.6564 15.8114 23.1374C17.9814 26.1974 21.0364 27.8564 23.8194 27.8564C25.4884 27.8564 25.6944 27.4884 25.6944 26.8534V24.5404C25.6944 23.8034 25.8524 23.6564 26.3814 23.6564C26.7714 23.6564 27.4384 23.8484 28.9964 25.3234C30.7764 27.0724 31.0694 27.8564 32.0714 27.8564H34.6964C35.4464 27.8564 35.8224 27.4884 35.6064 26.7604C35.3684 26.0364 34.5184 24.9854 33.3914 23.7384C32.7794 23.0284 31.8614 22.2634 31.5824 21.8804C31.1934 21.3894 31.3044 21.1704 31.5824 20.7334C31.5824 20.7334 34.7824 16.3074 35.1154 14.8044H35.1164Z" />
               </svg>
+              <span class="visually-hidden">ВКонтакте.</span>
             </a>
           </li>
           <li class="social-item">
             <a class="social-link" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
-              <svg class="social-icon" aria-hidden="true" focusable="false" width="48" height="41" viewBox="0 0 48 41" xmlns="http://www.w3.org/2000/svg">
+              <svg aria-hidden="true" focusable="false" width="48" height="41" viewBox="0 0 48 41" xmlns="http://www.w3.org/2000/svg">
                 <path d="M31.785 12.9557L15.8405 19.1042C14.7523 19.5413 14.7586 20.1483 15.6408 20.419L19.7344 21.696L29.2058 15.7201C29.6537 15.4477 30.0629 15.5942 29.7265 15.8928L22.0528 22.8183H22.051L22.0528 22.8192L21.7705 27.0387C22.1841 27.0387 22.3667 26.8489 22.5987 26.625L24.5871 24.6915L28.7229 27.7464C29.4855 28.1664 30.0332 27.9506 30.2229 27.0405L32.9379 14.2453C33.2158 13.1311 32.5126 12.6266 31.785 12.9557Z" />
               </svg>
+              <span class="visually-hidden">Телеграм.</span>
             </a>
           </li>
           <li class="social-item">
             <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">YouTube</span>
               <svg aria-hidden="true" focusable="false" width="48" height="41" viewBox="0 0 48 41" xmlns="http://www.w3.org/2000/svg">
                 <path d="M31.9402 12.3564H16.5074C14.6467 12.3564 13.3333 13.9502 13.3333 15.7564V25.8502C13.3333 27.7627 14.6467 29.3564 16.5074 29.3564H32.1591C33.8009 29.3564 35.3333 27.7627 35.3333 25.9564V15.7564C35.1143 13.9502 33.8009 12.3564 31.9402 12.3564ZM20.9949 24.8939V16.8189L28.3283 20.8564L20.9949 24.8939Z" />
               </svg>
+              <span class="visually-hidden">YouTube.</span>
             </a>
           </li>
         </ul>
+
         <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="footer-dev" href="https://htmlacademy.ru/">
-          <span class="visually-hidden">Сайт разработчика</span>
+
+        <a class="footer-developer" href="https://htmlacademy.ru/">
           <svg aria-hidden="true" focusable="false" width="115" height="34" viewBox="0 0 115 34" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 13.2564V15.8564H2.5V13.2564H0Z" />
             <path d="M11.6 4.85645C10 4.85645 8.8 5.55645 8 6.55645H7.9V0.356445H5.9V15.8564H7.9V10.5564C7.9 8.45645 9.2 6.95645 11.2 6.95645C13 6.95645 14.1 8.35645 14.1 10.1564V15.8564H16.1V9.75644C16.2 6.75644 14.3 4.85645 11.6 4.85645Z" />
@@ -190,20 +192,20 @@
             <path d="M98.2 18.2564C96.6 18.2564 95.3 19.0564 94.6 20.2564H94.5C93.9 19.0564 92.7 18.2564 91.1 18.2564C89.7 18.2564 88.6 18.9564 88 20.0564V18.5564H86.1V29.1564H88.1V23.7564C88.1 21.7564 89.1 20.3564 90.7 20.2564C92.2 20.2564 93.1 21.2564 93.1 22.8564V29.1564H95.1V23.5564C95.1 21.1564 96.5 20.2564 97.7 20.2564C99.2 20.2564 100.1 21.2564 100.1 22.8564V29.1564H102.1V22.6564C102.2 20.0564 100.7 18.2564 98.2 18.2564Z" />
             <path d="M109.4 27.3564L105.8 18.4564H103.6L108.4 30.0564C108.1 30.9564 107.7 31.2564 106.7 31.2564H104.2V33.2564H106.7C108.5 33.2564 109.5 32.4564 110.2 30.6564L114.9 18.4564H112.8L109.4 27.3564Z" />
           </svg>
-
+          <span class="visually-hidden">Сайт разработчика.</span>
         </a>
-      </footer>
 
-      <!-- Модальное окно -->
-      <!-- класс modal-container-close закрывает модальное окно. -->
+      </footer>
+      <!--Модальное окно-->
+      <!--Класс modal-container-close закрывает модальное окно-->
       <div class="modal-container modal-container-close">
         <div class="modal modal-search">
           <button class="modal-close-button" type="button">
-            <span class="visually-hidden">Закрыть</span>
+            <span class="visually-hidden">Закрыть.</span>
           </button>
           <section class="modal-content">
             <h2 class="modal-title page-title">Поиск гостиницы в Седоне</h2>
-            <form class="modal-search-form form" action="https://echo.htmlacademy.ru/" method="post">
+            <form class="modal-search-form form" action="#" method="post">
               <fieldset class="form-group date">
                 <label class="form-label data-label" for="arrival-date">Дата Заезда:</label>
                 <div class="date-input-container">
@@ -211,10 +213,11 @@
                   <span class="form-message form-message-error">Мы не можем отправить вас в прошлое.</span>
                 </div>
               </fieldset>
+
               <fieldset class="form-group date">
                 <label class="form-label data-label" for="departure-date">Дата Выезда:</label>
                 <div class="date-input-container">
-                  <input class="date-input form-input" type="text" name="departure-date" id="departure-date" placeholder="Укажите дату" value="1 сентября 2021" required>
+                  <input class="date-input form-input" type="text" name="departure-date" id="departure-date" placeholder="Укажите дату" value="1 сентября 2023" required>
                   <span class="form-message">На эти даты есть свободные номера. Пока есть.</span>
                 </div>
               </fieldset>
@@ -222,11 +225,11 @@
                 <label class="form-label adults-label" for="adults">Взрослые:</label>
                 <div class="people-input-container">
                   <button class="people-button people-button-minus" type="button">
-                    <span class="visually-hidden">Уменьшить количество человек</span>
+                    <span class="visually-hidden">Уменьшить количество человек.</span>
                   </button>
                   <input class="people-input people-input-adults form-input" id="adults" type="number" value="2" required>
                   <button class="people-button people-button-plus" type="button">
-                    <span class="visually-hidden">Увеличить количество человек</span>
+                    <span class="visually-hidden">Увеличить количество человек.</span>
                   </button>
                 </div>
               </fieldset>
@@ -235,6 +238,9 @@
                   <label class="form-label adults-label" for="children">Дети:</label>
                   <div class="tooltip">
                     <button class="tooltip-toggle" type="button" aria-labelledby="info-label-children">
+                      <svg width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z" fill="white" />
+                      </svg>
                       <span class="visually-hidden">Дополнительная информация.</span>
                     </button>
                     <p class="tooltip-text" id="info-label-children">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
@@ -242,19 +248,21 @@
                 </div>
                 <div class="people-input-container">
                   <button class="people-button people-button-minus" type="button">
-                    <span class="visually-hidden">Уменьшить количество человек</span>
+                    <span class="visually-hidden">Уменьшить количество человек.</span>
                   </button>
                   <input class="people-input people-input-children form-input" id="children" type="number" value="2" required>
                   <button class="people-button people-button-plus" type="button">
-                    <span class="visually-hidden">Увеличить количество человек</span>
+                    <span class="visually-hidden">Увеличить количество человек.</span>
                   </button>
                 </div>
               </fieldset>
               <button class="form-button button button-light" type="submit">Найти</button>
 
             </form>
+
           </section>
         </div>
+
       </div>
     </div>
   </body>
